@@ -44,11 +44,11 @@ function crossOffMovie(event) {
 
     if (event.target.classList.contains('checked') === true) {
         message.textContent = 'Movie watched!'
-        //interemdiate version
+        //intermediate version
         //message.textContent = `${event.target.textContent} watched!`
     } else {
         message.textContent = 'Movie added back!'
-        //interemdiate version
+        //intermediate version
         //message.textContent = `${event.target.textContent} added back!`
     }
 
